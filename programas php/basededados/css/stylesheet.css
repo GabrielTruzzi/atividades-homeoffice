@@ -1,0 +1,42 @@
+body {
+  	background-color: #435165;
+	color:#ffffff;
+	font-family:verdana;	
+}
+
+h1 {
+	font-family:verdana;
+}
+	
+li:hover {
+	background-color: #2868c7;
+  	transition: background-color 0.2s;
+}	
+
+ul {
+  font-family:verdana;
+  border: 1px solid #555;	
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  width: 200px;
+  background-color: #3274d6;
+  text-align:center;
+}
+
+li {
+  border-bottom: 1px solid #555;
+}
+
+li a {
+  font-family:verdana;	
+  display: block;
+  color:#ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;  
+}
+
+li:last-child {
+  border-bottom: none;
+}
