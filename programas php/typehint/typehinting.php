@@ -91,7 +91,7 @@ var_dump($objconta->getAgencia());
 echo '<hr>';
 
 echo '<hr>';
-echo 'Agencia: ' , $objconta->getAgencia()->getNome() , ' - ' $objconta->getAgencia()->getTelefone() , '<br>';
-echo 'Titular: ' , $objconta->getTitular()->getNome() , ' - ' $objconta->getTitular()->getCelular() , '<br>';
-echo 'Saldo: ' , $objconta->saldo;
+echo 'Agencia: ' . $objconta->getAgencia()->getNome() . ' - ' $objconta->getAgencia()->getTelefone() . '<br>';
+echo 'Titular: ' . $objconta->getTitular()->getNome() . ' - ' $objconta->getTitular()->getCelular() . '<br>';
+echo 'Saldo: ' . $objconta->saldo;
 
