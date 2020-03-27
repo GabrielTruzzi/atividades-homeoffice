@@ -1,0 +1,42 @@
+html{
+		padding:30px;
+	}
+input,textarea,select,p {
+		outline:0;
+		font-family: Tahoma, Geneva, sans-serif;
+	}
+.contato input[type="text"], .contato input[type="email"] {
+		display: block;
+		margin-top: 15px;
+		padding: 15px;
+		border: 1px solid #dfe0e0;
+		width: 500px;
+	}
+.contato input[type="text"]:focus, .contato input[type="email"]:focus {
+			border: 1px solid #c6c7c7;
+	}
+.contato textarea {
+		resize: none;
+		margin-top: 15px;
+		padding: 15px;
+		border: 1px solid #dfe0e0;
+		width: 500px;
+		height: 200px;
+	}
+.contato textarea:focus {
+		border: 1px solid #c6c7c7;
+	}
+.contato input[type="submit"] {
+		display: block;
+		margin-top: 15px;
+		padding: 15px;
+		border: 0;
+		background-color: #518acb;
+		font-weight: bold;
+		color: #fff;
+		cursor: pointer;
+		width: 150px;
+	}
+.contato input[type="submit"]:hover {
+		background-color: #3670b3;
+	}
