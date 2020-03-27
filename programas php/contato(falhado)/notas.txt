@@ -1,0 +1,1 @@
+tem um tempo que to tentando fazer um sistema funcional de envio de email, e todos eles falham em algum lugar, em geral envolvendo o processo de envio, o .ini do xampp ou o próprio servidor smtp, então vou aposentar a ideia por hora, talvez posteriormente eu teste em linux, onde esse processo é bem mais simples de executar que no windows
